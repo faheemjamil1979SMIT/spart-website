@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!------------google font------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+
+    <!------------Bootstrap cdn links------------->
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <!------------Main stylesheet------------->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery.bxslider.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-video">
+                        <video playsinline autoplay muted loop id="herovideo1">
+                            <source src="video (1080p).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="container">
+                            <div class="vidcontent">
+                                <h1 class="text-left">WELCOME TO SPART</h1>
+                                <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                                    reiciendis neque illum, sequi ullam iste at voluptatum quidem blanditiis? Ab, vitae.
+                                    Quae quis sed delectus minus maxime fuga doloremque natus.</p>
+                                <a href="#" id="vidBtn1">Click Here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="carousel-item active">
+                    <div class="bg-video">
+                        <video playsinline autoplay muted loop id="herovideo1">
+                            <source src="production_id_4927323 (1080p).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="container">
+                            <div class="vidcontent">
+                                <h1 class="text-left">WELCOME TO SPART</h1>
+                                <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                                    reiciendis neque illum, sequi ullam iste at voluptatum quidem blanditiis? Ab, vitae.
+                                    Quae quis sed delectus minus maxime fuga doloremque natus.</p>
+                                <a href="#" id="vidBtn2">Click Here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="carousel-item active">
+                    <div class="bg-video">
+                        <video playsinline autoplay muted loop id="herovideo1">
+                            <source src="pexels-mikhail-nilov-7534244 (1080p).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="container">
+                            <div class="vidcontent">
+                                <h1 class="text-left">WELCOME TO SPART</h1>
+                                <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                                    reiciendis neque illum, sequi ullam iste at voluptatum quidem blanditiis? Ab, vitae.
+                                    Quae quis sed delectus minus maxime fuga doloremque natus.</p>
+                                <a href="#" id="vidBtn3">Click Here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Brand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                 More nav items 
+              </ul>
+            </div>
+          </nav> -->
+
+
+
+
+
+
+
+
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Work</a></li>
+                    <li class="logo"><a href=""><img src="logo.png" alt="" class="white"><img src="logo.png"
+                                class="black" alt=""></a></li>
+                    <li><a href="">Pricinig</a></li>
+                    <li><a href="">Client</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <a class="nav-icon" href="javascript:void(0);"><span></span> <span></span> <span></span></a>
+            </nav>
+    </header>
+    <div style="height: 500px;"></div>
+    <div class="full-nav">
+        <div class="logo"><a href=""><img src="logotwo.png" alt=""></a></div>
+        <nav class="nav2">
+            <ul>
+                <li><a href=""><span>01. </span> Home</a></li>
+                <li><a href=""><span>02. </span> Features</a></li>
+                <li><a href=""><span>03. </span> Team</a></li>
+                <li><a href=""><span>04. </span> Work</a></li>
+                <li><a href=""><span>05. </span> Pricinig</a></li>
+                <li><a href=""><span>06. </span> Client</a></li>
+                <li><a href=""><span>07. </span> Blog</a></li>
+                <li><a href=""><span>08. </span> Contact</a></li>
+            </ul>
+        </nav>>
+        <ul class="social-icon list-inline">
+            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <div class="corner-circle">
+            <a href="javascript:void(0);" class="nav-close"><span></span><span></span></a>
+
+        </div>
+
+    </div>
+
+    <main id="contents" role="main">
+        <section id="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h3 id="">Awesome Services</h3>
+                        <p class="lead pb-5">
+                            THE STUNNING POSSIBILITIES OF THE THEME
+                        </p>
+                        <div id="carouselServices" class="carousel slide" data-bs-ride="carousel">
+                            <!-- Carousel Indicators -->
+                            <!-- <ol class="carousel-indicators">
+                                <li data-bs-target="#carouselServices" data-bs-slide-to="0" class="active"></li>
+                                <li data-bs-target="#carouselServices" data-bs-slide-to="1"></li>
+                            </ol> -->
+                        
+                            <!-- Carousel Slides -->
+                            <div class="carousel-inner">
+                                <!-- First Slide with 3 Items -->
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <!-- Item 1 -->
+                                        <div class="col-md px-md-5">
+                                            <div class="text-dark pb-3">
+                                                <i class="fa fa-shield fa-5x"></i>
+                                            </div>
+                                            <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT</h4>
+                                            <p class="text-secondary">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, maxime a.
+                                            </p>
+                                        </div>
+                                        <!-- Item 2 -->
+                                        <div class="col-md px-md-5">
+                                            <div class="text-dark pb-3">
+                                                <i class="fa fa-cog fa-5x"></i>
+                                            </div>
+                                            <h4 class="text-dark">FULLY CUSTOMIZABLE THEME</h4>
+                                            <p class="text-secondary">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, maxime a.
+                                            </p>
+                                        </div>
+                                        <!-- Item 3 -->
+                                        <div class="col-md px-md-5">
+                                            <div class="text-dark pb-3">
+                                                <i class="fa fa-bolt fa-5x"></i>
+                                            </div>
+                                            <h4 class="text-dark">STUNNING UPDATE VERSION 7.0</h4>
+                                            <p class="text-secondary">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, maxime a.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <!-- Second Slide with 3 Items -->
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <!-- Item 4 -->
+                                        <div class="col-md px-md-5">
+                                            <div class="text-dark pb-3">
+                                                <i class="fa fa-cog fa-5x"></i>
+                                            </div>
+                                            <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT 4</h4>
+                                            <p class="text-secondary">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, maxime a.
+                                            </p>
+                                        </div>
+                                        <!-- Item 5 -->
+                                        <div class="col-md px-md-5">
+                                            <div class="text-dark pb-3">
+                                                <i class="fa fa-shield fa-5x"></i>
+                                            </div>
+                                            <h4 class="text-dark">FULLY CUSTOMIZABLE THEME 5</h4>
+                                            <p class="text-secondary">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, maxime a.
+                                            </p>
+                                        </div>
+                                        <!-- Item 6 -->
+                                        <div class="col-md px-md-5">
+                                            <div class="text-dark pb-3">
+                                                <i class="fa fa-bolt fa-5x"></i>
+                                            </div>
+                                            <h4 class="text-dark">STUNNING UPDATE VERSION 7.0.6</h4>
+                                            <p class="text-secondary">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, maxime a.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Carousel Controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselServices" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselServices" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        
+                </div>
+            </div>
+        </section>
+    </main>
+    <br><br><br>
+    <section id="work">
+        <div class="content-box">
+            <div class="content-tital">
+                <h3 class="text-center">OUR WORK</h3>
+                <br><br>
+            </div>
+            <div class="container-fluid">
+                <div class="row no-gutters">
+                    <div class="col-md-3 col-sm=4">
+                        <div class="img-wrapper">
+                            <a href="work1.jpg">
+                                <img src="work1.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm=4">
+                        <div class="img-wrapper">
+                            <a href="work2.jpg">
+                                <img src="work2.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm=4">
+                        <div class="img-wrapper">
+                            <a href="work3.jpg">
+                                <img src="work3.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm=4">
+                        <div class="img-wrapper">
+                            <a href="work4.jpg">
+                                <img src="work4.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm=4">
+                        <div class="img-wrapper">
+                            <a href="work5.jpg">
+                                <img src="work5.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm=4">
+                        <div class="img-wrapper">
+                            <a href="work6.jpg">
+                                <img src="work6.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm=4">
+                        <div class="img-wrapper">
+                            <a href="work7.jpg">
+                                <img src="work7.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm=4">
+                        <div class="img-wrapper">
+                            <a href="work8.jpg">
+                                <img src="work8.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="p-5">
+                        <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste
+                            ipsa iure harum incidunt, sunt culpa ad quia, fugiat optio cumque obcaecati magni quis
+                            suscipit, quod voluptate labore! Veritatis, debitis.</p>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="text-center">
+                                    <img width="100px" height="100px" class="rounded-pill"
+                                        src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-614810.jpg&fm=jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-sm-6">
+                                <div class="h-100 d-flex flex-column justify-content-center">
+                                    <h3 class="m-0 p-0">Harold Hayes</h3>
+                                    <p>Star Rating</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-5">
+                        <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste
+                            ipsa iure harum incidunt, sunt culpa ad quia, fugiat optio cumque obcaecati magni quis
+                            suscipit, quod voluptate labore! Veritatis, debitis.</p>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="text-center">
+                                    <img width="100px" height="100px" class="rounded-pill"
+                                        src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-614810.jpg&fm=jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-sm-6">
+                                <div class="h-100 d-flex flex-column justify-content-center">
+                                    <h3 class="m-0 p-0">Harold Hayes</h3>
+                                    <p>Star Rating</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5 bg-info text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h2>ABC Heading</h2>
+                        <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque a laudantium
+                            minus at nostrum tempore sapiente repellat quibusdam illum omnis in neque, qui velit quasi
+                            minima. Mollitia esse impedit quo.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div>
+                        <h4>Website Links</h4>
+                        <a class="d-block text-white fs-5 pb-2 text-decoration-none" href="">Home</a>
+                        <a class="d-block text-white fs-5 pb-2 text-decoration-none" href="">About</a>
+                        <a class="d-block text-white fs-5 pb-2 text-decoration-none" href="">Service</a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div>
+
+                        <h4>Website Links</h4>
+                        <a class="d-block text-white fs-5 pb-2 text-decoration-none" href="">Home</a>
+                        <a class="d-block text-white fs-5 pb-2 text-decoration-none" href="">About</a>
+                        <a class="d-block text-white fs-5 pb-2 text-decoration-none" href="">Service</a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div>
+                        <h4>Website Links</h4>
+                        <a class="d-block text-white fs-5 pb-2 text-decoration-none" href="">Home</a>
+                        <a class="d-block text-white fs-5 pb-2 text-decoration-none" href="">About</a>
+                        <a class="d-block text-white fs-5 pb-2 text-decoration-none" href="">Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
